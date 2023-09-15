@@ -1,0 +1,20 @@
+.opparent{
+    height: 50vh;
+    width: 10vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+.allop{
+    font-size: 2rem;
+    background-color: #b157ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
